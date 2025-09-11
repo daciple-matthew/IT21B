@@ -19,7 +19,7 @@ function mainMenu() {
         console.log(choice);
 
         if (choice === "1") {
-            console.log("Hello");
+            sayHello();
         } else if (choice === "2") {
             console.log("Factorial");
 
@@ -51,6 +51,10 @@ function mainMenu() {
         }
 
     })
+}
+
+function sayHello() {
+    console.log("Hello");
 }
 
 
