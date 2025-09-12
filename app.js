@@ -18,7 +18,17 @@ class Person {
          console.log("Age: " + this.age);
          console.log("Occupation: " + this.occupation);
          console.log("Message: " + this.message);
+         console.log("-------------------");
 
+    }
+
+
+    showName() {
+        console.log(this.name);
+    }
+
+    showMessage() {
+        console.log(this.message);
     }
 }
 const person1 = new Person ("Coco Martin","24","Masahista","Ser, tapos na po");
