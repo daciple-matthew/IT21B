@@ -22,5 +22,7 @@ class Person {
     }
 }
 const person1 = new Person ("Coco Martin","24","Masahista","Ser, tapos na po");
+const person2 = new Person ("Victor Magtanggol","24","Superhero","Arjooooo");
 
 person1.displayInfo();
+person2.displayInfo();
